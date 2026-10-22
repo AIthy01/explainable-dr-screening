@@ -1,0 +1,7 @@
+model_a,model_b,error_overlap,both_right,both_wrong,a_wrong_b_right,a_right_b_wrong,oracle_accuracy,high_risk_a_wrong_b_right,high_risk_a_right_b_wrong,high_risk_both_wrong
+vgg16,resnet50,0.3984375,458,51,41,36,0.9129692832764505,4,10,21
+vgg16,densenet121,0.4330708661417323,459,55,37,35,0.9061433447098977,8,6,17
+vgg16,efficientnet_b3,0.421875,458,54,38,36,0.9078498293515358,5,11,20
+resnet50,densenet121,0.5391304347826087,471,62,25,28,0.89419795221843,10,2,21
+resnet50,efficientnet_b3,0.5,468,59,28,31,0.8993174061433447,7,7,24
+densenet121,efficientnet_b3,0.47540983606557374,464,58,32,32,0.9010238907849829,2,10,21
